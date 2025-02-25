@@ -1,4 +1,5 @@
 import './App.css'
+import Home from './components/Home'
 import Header from './components/layout/Header'
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     
     <>
     <Header/>
-    <h1 className="text-3xl font-bold underline">welcome to lms project</h1>
+    <Home/>
     
     </>  
   )
