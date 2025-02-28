@@ -2,7 +2,7 @@ import React from 'react'
 import {  Menu, X } from "lucide-react";
 import { useState } from "react";
 // import Logo from "../logo.png";
-
+import { NavLink } from 'react-router-dom'
 
 
 const Header = () => {
@@ -25,13 +25,15 @@ const Header = () => {
           </div>
           <ul className="hidden lg:flex ml-14 space-x-12">
           <li className="py-4">
-                <a href="">Home</a>
+                {/* <a href="">Home</a> */}
+                <NavLink className="nav-link active" to={'/'}>Home</NavLink>
               </li>
               <li className="py-4">
-                <a href="">Course</a>
+                {/* <a href="">Course</a> */}
               </li>
               <li className="py-4">
-                <a href="">Contact us</a>
+                <NavLink className="nav-link active" to={'/contact-us'}>Contact-us</NavLink>
+                {/* <a href="">Contact us</a> */}
               </li>
               <li className="py-4">
                 <a href="">About</a>

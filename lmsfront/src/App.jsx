@@ -1,8 +1,6 @@
 import './App.css'
-import Contactus from './components/Contactus'
-import Home from './components/Home'
-import Footer from './components/layout/Footer'
-import Header from './components/layout/Header'
+
+import Layout from './components/layout/Layout'
 
 function App() {
   
@@ -10,10 +8,7 @@ function App() {
   return (
     
     <>
-    <Header/>
-    <Home/>
-    {/* <Contactus/> */}
-    <Footer/>
+    <Layout/>
     </>  
   )
 }
