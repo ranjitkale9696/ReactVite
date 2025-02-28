@@ -3,7 +3,8 @@ import video1 from "../assets/video1.mp4";
 import video2 from "../assets/video2.mp4";
 const Home = () => {
   return (
-    <div className="flex flex-col items-center mt-6 lg:mt-20">
+    // <div className="flex flex-col items-center mt-6 lg:mt-20">
+       <div className="container mx-auto px-4 py-12">
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
         VirtualR build tools
         <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">

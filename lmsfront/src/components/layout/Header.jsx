@@ -60,13 +60,13 @@ const Header = () => {
           <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
             <ul>
             <li className="py-4">
-                <a href="">Home</a>
+            <NavLink className="nav-link active" to={'/'}>Home</NavLink>
               </li>
               <li className="py-4">
                 <a href="">Course</a>
               </li>
               <li className="py-4">
-                <a href="">Contact us</a>
+              <NavLink className="nav-link active" to={'/contact-us'}>Contact-us</NavLink>
               </li>
               <li className="py-4">
                 <a href="">About</a>
